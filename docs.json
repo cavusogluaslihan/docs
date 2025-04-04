@@ -9,71 +9,84 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
+        "language": "tr",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Blog",
+            "pages": ["tr/inikale"]
+          },
+          {
+            "group": "Başlangıç",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "tr/introduction",
+              "tr/quickstart",
+              "tr/development"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Temeller",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "tr/essentials/markdown",
+              "tr/essentials/code",
+              "tr/essentials/images",
+              "tr/essentials/settings",
+              "tr/essentials/navigation",
+              "tr/essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "API Referansı",
+            "pages": [
+              "tr/api-reference/introduction",
+              "tr/api-reference/endpoint/get",
+              "tr/api-reference/endpoint/create",
+              "tr/api-reference/endpoint/delete",
+              "tr/api-reference/endpoint/webhook"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "language": "en",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Blog",
+            "pages": ["en/inikale"]
+          },
+          {
+            "group": "Get Started",
             "pages": [
-              "api-reference/introduction"
+              "en/introduction",
+              "en/quickstart",
+              "en/development"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Essentials",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "en/essentials/markdown",
+              "en/essentials/code",
+              "en/essentials/images",
+              "en/essentials/settings",
+              "en/essentials/navigation",
+              "en/essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "en/api-reference/introduction",
+              "en/api-reference/endpoint/get",
+              "en/api-reference/endpoint/create",
+              "en/api-reference/endpoint/delete",
+              "en/api-reference/endpoint/webhook"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
